@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 250, 0.3);
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-family: Helvetica, Arial, Sans Serif;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(0, 0, 250);
+    color: rgb(250, 250, 250);
+    text-align: center;
+    font-family: Helvetica, Arial, Sans Serif;
+    width: 100%;
+}
+
+hr {
+    width: 80%;
+}
