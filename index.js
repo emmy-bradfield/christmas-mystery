@@ -6,8 +6,12 @@ const FRM = document.querySelector("#form");
 
 let RESULT = document.createElement("h4");
 let TREAT = document.createElement("button");
+let DWN = document.createElement("a");
 
 let OUT = "";
+
+DWN.setAttribute("href", "./assets/treat.pdf");
+DWN.setAttribute("target", "_blank");
 
 TREAT.setAttribute("id", "btn2");
 TREAT.textContent = "Gimme! Gimme! Gimme!";
@@ -23,7 +27,8 @@ const SUBMIT = (e) => {
   }
   RESULT.textContent = OUT;
   FRM.appendChild(RESULT);
-  FRM.appendChild(TREAT);
+  DWN.appendChild(TREAT);
+  FRM.appendChild(DWN);
 };
 
 BTN.addEventListener("click", SUBMIT);
