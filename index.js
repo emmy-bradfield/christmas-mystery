@@ -12,9 +12,8 @@ let OUT = "";
 
 DWN.setAttribute("href", "./assets/treat.pdf");
 DWN.setAttribute("target", "_blank");
-
-TREAT.setAttribute("id", "btn2");
-TREAT.textContent = "Gimme! Gimme! Gimme!";
+DWN.setAttribute("id", "btn2");
+DWN.textContent = "Gimme! Gimme! Gimme!";
 
 const SUBMIT = (e) => {
   e.preventDefault();
@@ -27,7 +26,6 @@ const SUBMIT = (e) => {
   }
   RESULT.textContent = OUT;
   FRM.appendChild(RESULT);
-  DWN.appendChild(TREAT);
   FRM.appendChild(DWN);
 };
 
